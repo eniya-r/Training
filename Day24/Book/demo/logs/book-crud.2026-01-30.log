@@ -1,0 +1,32 @@
+2026-01-30 16:12:49.526 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2026-01-30 16:12:49.534 INFO  [main] c.e.bookcrud.BookCrudApplication - Starting BookCrudApplication using Java 11.0.25 on APTINWLPF43W44H with PID 21952 (C:\Users\u1215841\IdeaProjects\Day 20\Book\demo\target\classes started by u1215841 in C:\Users\u1215841\IdeaProjects\Day 20\Book\demo)
+2026-01-30 16:12:49.544 INFO  [main] c.e.bookcrud.BookCrudApplication - No active profile set, falling back to 1 default profile: "default"
+2026-01-30 16:12:51.392 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2026-01-30 16:12:51.400 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-01-30 16:12:51.404 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-30 16:12:51.404 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.83]
+2026-01-30 16:12:51.547 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-01-30 16:12:51.547 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1942 ms
+2026-01-30 16:12:51.629 INFO  [main] c.e.bookcrud.service.BookServiceImpl - Seeded 6 books into memory
+2026-01-30 16:12:51.990 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-01-30 16:12:52.019 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2026-01-30 16:12:52.031 INFO  [main] c.e.bookcrud.BookCrudApplication - Started BookCrudApplication in 3.158 seconds (JVM running for 3.724)
+2026-01-30 16:13:28.788 INFO  [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-30 16:13:28.788 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-01-30 16:13:28.788 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-01-30 16:54:07.459 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2026-01-30 16:54:07.465 INFO  [main] c.e.bookcrud.BookCrudApplication - Starting BookCrudApplication using Java 11.0.25 on APTINWLPF43W44H with PID 19940 (C:\Users\u1215841\IdeaProjects\Day 20\Book\demo\target\classes started by u1215841 in C:\Users\u1215841\IdeaProjects\Day 20\Book\demo)
+2026-01-30 16:54:07.472 INFO  [main] c.e.bookcrud.BookCrudApplication - No active profile set, falling back to 1 default profile: "default"
+2026-01-30 16:54:09.391 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2026-01-30 16:54:09.402 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-01-30 16:54:09.405 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-30 16:54:09.405 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.83]
+2026-01-30 16:54:09.608 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-01-30 16:54:09.609 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2088 ms
+2026-01-30 16:54:09.681 INFO  [main] c.e.bookcrud.service.BookServiceImpl - Seeded 6 books into memory
+2026-01-30 16:54:10.052 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-01-30 16:54:10.153 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2026-01-30 16:54:10.157 INFO  [main] c.e.bookcrud.BookCrudApplication - Started BookCrudApplication in 3.41 seconds (JVM running for 4.042)
+2026-01-30 16:54:30.511 INFO  [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-30 16:54:30.511 INFO  [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-01-30 16:54:30.513 INFO  [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms

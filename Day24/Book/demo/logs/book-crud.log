@@ -1,0 +1,20 @@
+2026-02-02 16:24:25.092 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2026-02-02 16:24:25.092 INFO  [main] c.e.bookcrud.BookCrudApplication - Starting BookCrudApplication using Java 11.0.25 on APTINWLPF43W44H with PID 27588 (C:\Users\u1215841\IdeaProjects\Day 20\Book\demo\target\classes started by u1215841 in C:\Users\u1215841\IdeaProjects\Day 20\Book\demo)
+2026-02-02 16:24:25.105 DEBUG [main] c.e.bookcrud.BookCrudApplication - Running with Spring Boot v2.7.18, Spring v5.3.31
+2026-02-02 16:24:25.106 INFO  [main] c.e.bookcrud.BookCrudApplication - The following 1 profile is active: "dev"
+2026-02-02 16:24:27.143 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2026-02-02 16:24:27.154 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-02 16:24:27.157 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-02 16:24:27.157 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.83]
+2026-02-02 16:24:27.367 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-02 16:24:27.368 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2204 ms
+2026-02-02 16:24:27.472 INFO  [main] c.e.bookcrud.service.BookServiceImpl - Seeded 6 books into memory
+2026-02-02 16:24:27.974 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-02 16:24:28.008 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2026-02-02 16:24:28.021 INFO  [main] c.e.bookcrud.BookCrudApplication - Started BookCrudApplication in 3.62 seconds (JVM running for 4.254)
+2026-02-02 16:28:27.595 INFO  [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-02 16:28:27.598 INFO  [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-02-02 16:28:27.598 INFO  [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-02-02 16:28:27.788 DEBUG [http-nio-8080-exec-2] c.e.bookcrud.service.BookServiceImpl - Fetching books: author=null, minPrice=null, maxPrice=null, count=6
+2026-02-02 16:56:09.352 DEBUG [http-nio-8080-exec-6] c.e.bookcrud.service.BookServiceImpl - Created book id=7 title=Architecture Design
+2026-02-02 16:56:09.353 DEBUG [http-nio-8080-exec-6] com.example.bookcrud.BookController - POST /books created id=7
