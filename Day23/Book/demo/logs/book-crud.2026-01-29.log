@@ -1,0 +1,55 @@
+2026-01-29 16:30:30.568 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2026-01-29 16:30:30.573 INFO  [main] c.e.bookcrud.BookCrudApplication - Starting BookCrudApplication using Java 11.0.25 on APTINWLPF43W44H with PID 29384 (C:\Users\u1215841\IdeaProjects\Day 20\Book\demo\target\classes started by u1215841 in C:\Users\u1215841\IdeaProjects\Day 20\Book\demo)
+2026-01-29 16:30:30.579 INFO  [main] c.e.bookcrud.BookCrudApplication - No active profile set, falling back to 1 default profile: "default"
+2026-01-29 16:30:32.455 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2026-01-29 16:30:32.463 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-01-29 16:30:32.466 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-29 16:30:32.467 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.83]
+2026-01-29 16:30:32.638 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-01-29 16:30:32.638 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1997 ms
+2026-01-29 16:30:32.723 INFO  [main] c.e.bookcrud.service.BookServiceImpl - Seeded 6 books into memory
+2026-01-29 16:30:33.158 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-01-29 16:30:33.194 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2026-01-29 16:30:33.207 INFO  [main] c.e.bookcrud.BookCrudApplication - Started BookCrudApplication in 3.329 seconds (JVM running for 3.88)
+2026-01-29 16:32:00.162 INFO  [main] c.e.bookcrud.BookControllerTest - Starting BookControllerTest using Java 11.0.25 on APTINWLPF43W44H with PID 1236 (started by u1215841 in C:\Users\u1215841\IdeaProjects\Day 20\Book\demo)
+2026-01-29 16:32:00.165 INFO  [main] c.e.bookcrud.BookControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-01-29 16:32:00.169 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2026-01-29 16:32:01.217 INFO  [main] c.e.bookcrud.service.BookServiceImpl - Seeded 6 books into memory
+2026-01-29 16:32:02.158 INFO  [main] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-01-29 16:32:02.158 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2026-01-29 16:32:02.159 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2026-01-29 16:32:02.183 INFO  [main] c.e.bookcrud.BookControllerTest - Started BookControllerTest in 2.629 seconds (JVM running for 4.147)
+2026-01-29 16:32:03.033 WARN  [main] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.example.bookcrud.dto.BookResponseDTO> com.example.bookcrud.controller.BookController.create(com.example.bookcrud.dto.BookRequestDTO): [Field error in object 'bookRequestDTO' on field 'title': rejected value [clean code]; codes [TitleCase.bookRequestDTO.title,TitleCase.title,TitleCase.java.lang.String,TitleCase]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [bookRequestDTO.title,title]; arguments []; default message [title]]; default message [title must start with an uppercase letter]] ]
+2026-01-29 16:32:16.201 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2026-01-29 16:32:16.209 INFO  [main] c.e.bookcrud.BookControllerTest - Starting BookControllerTest using Java 11.0.25 on APTINWLPF43W44H with PID 924 (started by u1215841 in C:\Users\u1215841\IdeaProjects\Day 20\Book\demo)
+2026-01-29 16:32:16.211 INFO  [main] c.e.bookcrud.BookControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-01-29 16:32:17.204 INFO  [main] c.e.bookcrud.service.BookServiceImpl - Seeded 6 books into memory
+2026-01-29 16:32:18.077 INFO  [main] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-01-29 16:32:18.077 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2026-01-29 16:32:18.079 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2026-01-29 16:32:18.106 INFO  [main] c.e.bookcrud.BookControllerTest - Started BookControllerTest in 2.561 seconds (JVM running for 4.221)
+2026-01-29 16:32:18.868 INFO  [main] c.e.bookcrud.service.BookServiceImpl - Created book id=7 title=Domain-Driven Design
+2026-01-29 16:32:18.869 INFO  [main] c.e.b.controller.BookController - POST /books created id=7
+2026-01-29 16:32:18.990 WARN  [main] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.example.bookcrud.dto.BookResponseDTO> com.example.bookcrud.controller.BookController.create(com.example.bookcrud.dto.BookRequestDTO): [Field error in object 'bookRequestDTO' on field 'title': rejected value [clean code]; codes [TitleCase.bookRequestDTO.title,TitleCase.title,TitleCase.java.lang.String,TitleCase]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [bookRequestDTO.title,title]; arguments []; default message [title]]; default message [title must start with an uppercase letter]] ]
+2026-01-29 16:41:36.784 INFO  [main] c.e.bookcrud.BookControllerTest - Starting BookControllerTest using Java 11.0.25 on APTINWLPF43W44H with PID 27892 (started by u1215841 in C:\Users\u1215841\IdeaProjects\Day 20\Book\demo)
+2026-01-29 16:41:36.786 INFO  [main] c.e.bookcrud.BookControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-01-29 16:41:36.785 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2026-01-29 16:41:37.695 INFO  [main] c.e.bookcrud.service.BookServiceImpl - Seeded 6 books into memory
+2026-01-29 16:41:38.510 INFO  [main] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-01-29 16:41:38.510 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2026-01-29 16:41:38.511 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2026-01-29 16:41:38.535 INFO  [main] c.e.bookcrud.BookControllerTest - Started BookControllerTest in 2.289 seconds (JVM running for 3.549)
+2026-01-29 16:41:39.193 INFO  [main] c.e.bookcrud.service.BookServiceImpl - Created book id=7 title=Domain-Driven Design
+2026-01-29 16:41:39.193 INFO  [main] c.e.b.controller.BookController - POST /books created id=7
+2026-01-29 16:41:39.310 WARN  [main] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.example.bookcrud.dto.BookResponseDTO> com.example.bookcrud.controller.BookController.create(com.example.bookcrud.dto.BookRequestDTO): [Field error in object 'bookRequestDTO' on field 'title': rejected value [clean code]; codes [TitleCase.bookRequestDTO.title,TitleCase.title,TitleCase.java.lang.String,TitleCase]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [bookRequestDTO.title,title]; arguments []; default message [title]]; default message [title must start with an uppercase letter]] ]
+2026-01-29 17:15:59.961 INFO  [main] c.e.bookcrud.BookControllerTest - Starting BookControllerTest using Java 11.0.25 on APTINWLPF43W44H with PID 18716 (started by u1215841 in C:\Users\u1215841\IdeaProjects\Day 20\Book\demo)
+2026-01-29 17:15:59.964 INFO  [main] c.e.bookcrud.BookControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-01-29 17:15:59.962 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2026-01-29 17:16:01.192 INFO  [main] c.e.bookcrud.service.BookServiceImpl - Seeded 6 books into memory
+2026-01-29 17:16:02.171 INFO  [main] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-01-29 17:16:02.172 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2026-01-29 17:16:02.173 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2026-01-29 17:16:02.202 INFO  [main] c.e.bookcrud.BookControllerTest - Started BookControllerTest in 3.044 seconds (JVM running for 4.842)
+2026-01-29 17:16:03.028 INFO  [main] c.e.bookcrud.service.BookServiceImpl - Created book id=7 title=Domain-Driven Design
+2026-01-29 17:16:03.030 INFO  [main] c.e.b.controller.BookController - POST /books created id=7
+2026-01-29 17:16:03.152 WARN  [main] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.example.bookcrud.dto.BookResponseDTO> com.example.bookcrud.controller.BookController.create(com.example.bookcrud.dto.BookRequestDTO): [Field error in object 'bookRequestDTO' on field 'title': rejected value [clean code]; codes [TitleCase.bookRequestDTO.title,TitleCase.title,TitleCase.java.lang.String,TitleCase]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [bookRequestDTO.title,title]; arguments []; default message [title]]; default message [title must start with an uppercase letter]] ]
