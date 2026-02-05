@@ -1,0 +1,17 @@
+2026-02-03 16:41:21.057 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2026-02-03 16:41:21.057 INFO  [main] c.e.bookcrud.BookCrudApplication - Starting BookCrudApplication using Java 11.0.25 on APTINWLPF43W44H with PID 392 (C:\Users\u1215841\IdeaProjects\Day 20\Book\demo\target\classes started by u1215841 in C:\Users\u1215841\IdeaProjects\Day 20\Book\demo)
+2026-02-03 16:41:21.071 DEBUG [main] c.e.bookcrud.BookCrudApplication - Running with Spring Boot v2.7.18, Spring v5.3.31
+2026-02-03 16:41:21.072 INFO  [main] c.e.bookcrud.BookCrudApplication - The following 1 profile is active: "dev"
+2026-02-03 16:41:23.652 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2026-02-03 16:41:23.665 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-03 16:41:23.667 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-03 16:41:23.668 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.83]
+2026-02-03 16:41:23.906 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-03 16:41:23.907 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2765 ms
+2026-02-03 16:41:24.032 INFO  [main] c.e.bookcrud.service.BookServiceImpl - Seeded 6 books into memory
+2026-02-03 16:41:24.734 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-03 16:41:24.787 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2026-02-03 16:41:24.802 INFO  [main] c.e.bookcrud.BookCrudApplication - Started BookCrudApplication in 4.554 seconds (JVM running for 5.533)
+2026-02-03 16:41:51.311 INFO  [http-nio-8080-exec-6] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-03 16:41:51.312 INFO  [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-02-03 16:41:51.313 INFO  [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
